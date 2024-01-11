@@ -17,7 +17,7 @@ class Stopwatch extends Component {
   startBtn = () => {
     this.timerID = setInterval(this.countDownStart, 1000)
   }
-
+  // this is the start button
   stopBtn = () => {
     clearInterval(this.timerID)
   }
